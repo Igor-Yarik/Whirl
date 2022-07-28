@@ -4,3 +4,42 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Fraunces', serif; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1130px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.head_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0070A0;
+    color: #fff;
+}
+
+.head_top_text {
+    font-size: 14px;
+    line-height: 20px;
+    /* text-align: center; */
+    letter-spacing: 0.2px;
+    padding-right: 5px;
+}
+
+.head_top_link {
+    font-size: 13px;
+    line-height: 18px;
+    /* text-align: center; */
+    letter-spacing: 0.2px;
+    color: #CCE5F3;
+
+}
