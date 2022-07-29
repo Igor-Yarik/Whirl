@@ -603,7 +603,7 @@ a {
 
 .start {
     padding-top: 80px;
-    padding-bottom: 128px;
+    padding-bottom: 80px;
 }
 
 .start_item {
@@ -635,7 +635,7 @@ a {
 
 .start .btn_demo {
     display: inline-block;
-    padding: 8px 32px;
+    padding: 8px 39px;
     margin-bottom: 20px;
 }
 
@@ -649,7 +649,7 @@ a {
 }
 
 .start_subtext p {
-    margin-right: 52px;
+    margin-right: 34px;
     background: url(../images/icons/start_icon.png) left no-repeat;
     padding-left: 17px;
 }
