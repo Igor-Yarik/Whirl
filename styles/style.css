@@ -9,7 +9,11 @@ body {
     /* font-family: 'Fraunces', serif; */
 }
 
-h1, h2, h3, p, ul {
+h1,
+h2,
+h3,
+p,
+ul {
     margin: 0;
     padding: 0;
 }
@@ -77,9 +81,7 @@ a {
     margin-right: 0;
 }
 
-.authorization {
-
-}
+.authorization {}
 
 .link_auto {
     font-size: 15px;
@@ -245,17 +247,14 @@ a {
 
 
 
-.function_items {
-    
-
-}
+.function_items {}
 
 
 .function_item {
     position: relative;
     border-top: 1px solid #C2CDD8;
     border-bottom: 1px solid #C2CDD8;
-    padding-left: 60px;   
+    padding-left: 60px;
 
 }
 
@@ -343,7 +342,7 @@ a {
 }
 
 .protection_items {
-    display: flex;    
+    display: flex;
 }
 
 .protection_item {
@@ -379,7 +378,7 @@ a {
     line-height: 31px;
     letter-spacing: 0.2px;
     color: #1F1F1F;
-    margin-top: 8px;   
+    margin-top: 8px;
     margin-bottom: 11px;
 }
 
@@ -392,15 +391,13 @@ a {
 }
 
 .charts {
-    padding-top: 80px;  
+    padding-top: 80px;
     padding-bottom: 80px;
     background-color: #0070A0;
     color: #FFFFFF;
 }
 
-.chart_img {
-
-}
+.chart_img {}
 
 .charts_block {
     display: flex;
@@ -460,4 +457,199 @@ a {
     height: 11px;
     top: 5px;
     left: -26px;
+}
+
+.tasks {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: #1F1F1F;
+}
+
+.tasks_title {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+
+.tasks_text {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    margin-top: 21px;
+    margin-bottom: 65px;
+
+}
+
+.tasks_items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task_item {
+    width: 235px;
+}
+
+
+
+.task_item_title {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 0.2px;
+    margin-top: 7px;
+    margin-bottom: 11px;
+}
+
+.task_item_text {
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.blog {
+    background-color: #F7F9FA;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #1F1F1F;
+}
+
+.blog_title_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.blog_title {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+
+}
+
+.blog_all_links {
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #0070A0;
+    padding: 8px 32px;
+}
+
+.blog_items {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+    color: #1F1F1F;
+
+}
+
+.blog_item {
+    width: 355px;
+    background-color: #FFFFFF;
+    padding: 25px 24px 27px 24px;
+
+}
+
+.blog_img {
+    position: relative;
+    top: -25px;
+    left: -24px;
+
+}
+
+
+.blog_link {
+    display: inline-flex;
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #2C90C9;
+    background-color: #E6F7FF;
+    padding: 2px 12px 4px 12px;
+
+}
+
+.blog_item_title {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    letter-spacing: 0.2px;
+}
+
+.blog_item_text {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+    margin-top: 12px;
+    margin-bottom: 13px;
+
+}
+
+.blog_item_time {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+}
+
+.start {
+    padding-top: 80px;
+    padding-bottom: 128px;
+}
+
+.start_item {
+    padding: 64px 564px 48px 64px;
+    background-color: #E6F7FF;
+
+}
+
+
+.start_title {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+
+}
+
+.start_text {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #1F1F1F;
+    margin-top: 21px;
+    margin-bottom: 33px;
+
+}
+
+.start .btn_demo {
+    display: inline-block;
+    padding: 8px 32px;
+    margin-bottom: 20px;
+}
+
+.start_subtext {
+    display: flex;
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color: #626A72;
+
+}
+
+.start_subtext p {
+    margin-right: 52px;
+    background: url(../images/icons/start_icon.png) left no-repeat;
+    padding-left: 17px;
 }
